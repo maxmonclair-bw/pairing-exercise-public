@@ -1,0 +1,26 @@
+{
+  "name": "pairing-exercise",
+  "version": "1.0.0",
+  "description": "code pairing exercise",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "test": "mocha --exit 'test/test.js'"
+  },
+  "keywords": [],
+  "author": "Betterworks",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BetterWorks/pairing-exercise.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BetterWorks/pairing-exercise/issues"
+  },
+  "homepage": "https://github.com/BetterWorks/pairing-exercise#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "nodemon": "^2.0.6"
+  }
+}

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+
+  app:
+    build: .
+    command: npm run test
+    volumes:
+      - ./src:/home/app/src
+      - ./test:/home/app/test
+      - ./package.json:/home/app/package.json
+      - /home/app/node_modules
